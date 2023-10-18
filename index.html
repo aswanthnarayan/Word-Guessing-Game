@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Word | Aswanth</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    <h1>Guess The Word</h1>
+  <div class="content">
+    <input type="text" class="typing-input" maxlength="1">
+    <div class="inputs">
+    </div>
+<div class="details">
+  <p class="hint">Hint : <span></span></p>
+  <p class="guesses">Remaining Gusses : <span></span></p>
+  <p class="wrong-letters">Wrong Letters : <span></span></p>
+</div>
+<div class="btn-div">
+  <button class="reset-btn">Reset Game</button>
+</div>
+  </div>
+  </div>
+  
+  <script src="./words.js"></script>
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
